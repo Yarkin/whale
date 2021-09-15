@@ -5,5 +5,5 @@ add_subdirectory(whale)
 include_directories(whale/include)
 include_directories(whale/src)
 
-#add_executable(test whale/test/test_hook.cc)
-#target_link_libraries(test whale)
+add_executable(test whale/test/test_hook.cc)
+target_link_libraries(test whale)
